@@ -18,7 +18,7 @@ var ceth = {
 			//Calculate the change in price.
 			ceth.price.btc.last = ceth.price.btc.current,
 			ceth.price.btc.current = ceth.req.response.result.Last,
-			ceth.price.change = ceth.price.btc.last - ceth.price.btc.current;
+			ceth.price.change = ceth.price.btc.current - ceth.price.btc.last;
 			
 			//Get the USDT-BTC price from the Bittrex Public API.
 			ceth.req.open("GET", "https://bittrex.com/api/v1.1/public/getticker?market=usdt-btc", true);
