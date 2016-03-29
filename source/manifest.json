@@ -3,8 +3,8 @@
 	
 	"name": "cETH",
 	"author": "Cylius Optimi",
-	"description": "Displays the price of Ethereum in milliɃitcoin, U.S. Dollars, or Euros, live. Source: http://github.com/Cylius-Optimi/cETH",
-	"version": "1.0",
+	"description": "Displays the price of Ethereum in milliɃitcoin, U.S. Dollars, or Euros, live. \nSource: http://github.com/Cylius-Optimi/cETH",
+	"version": "1.1",
 	"icons": {
 		"128":"eth.png"
 	},
